@@ -1,6 +1,11 @@
-// Usage
-function App() {
-    // Call the hook which returns, current value and the toggler function
+## useToggle
+
+### Usage  
+
+function App() {  
+
+    // Call the hook which returns, current value and the toggler function  
+
     const [isTextChanged, setIsTextChanged] = useToggle();
     
     return (
