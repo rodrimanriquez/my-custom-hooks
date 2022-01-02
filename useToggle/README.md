@@ -5,7 +5,6 @@
 // Call the hook which returns, current value and the toggler function
 
 function App() {
-
     const [isTextChanged, setIsTextChanged] = useToggle();
 
     return (
